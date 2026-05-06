@@ -5,7 +5,7 @@ pipeline {
       parallel {
         stage('Build') {
           steps {
-            sh 'echo "compiling application"'
+            bat 'echo "compiling application"'
           }
         }
 
